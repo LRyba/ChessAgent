@@ -1,0 +1,73 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.app h1 {
+  font-size: 1.8em;
+  margin: 0;
+}
+
+.board-container {
+  width: 560px;
+  max-width: 90vw;
+}
+
+.status {
+  font-size: 1.2em;
+  min-height: 1.5em;
+}
+
+.status.error {
+  color: #e74c3c;
+}
+
+.controls {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.board-container {
+  position: relative;
+}
+
+.promotion-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  border-radius: 4px;
+}
+
+.promotion-dialog {
+  background: #2c2c2c;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+
+.promotion-dialog p {
+  margin: 0 0 0.5rem;
+}
+
+.promotion-pieces {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.promotion-btn {
+  font-size: 2.5rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  line-height: 1;
+}

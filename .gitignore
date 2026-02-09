@@ -205,3 +205,31 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# === Project-specific ===
+
+# PyTorch models (large binary files)
+*.pt
+*.pth
+*.onnx
+
+# Datasets
+datasets/*.pgn
+datasets/*.npz
+datasets/processed/
+datasets/processed_100k/
+datasets/*.csv
+datasets/*.gz
+
+# Node.js / Frontend
+node_modules/
+
+# Experiments output
+experiments/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment files
+.env.local

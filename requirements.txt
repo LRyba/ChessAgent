@@ -1,0 +1,19 @@
+# Chess engine & game logic
+chess
+
+# Scientific computing
+numpy<2.3
+pandas
+matplotlib
+
+# Web backend
+fastapi
+uvicorn[standard]
+
+# Notebooks
+jupyter
+ipykernel
+
+# NOTE: PyTorch is installed separately due to CPU/CUDA variants:
+#   Linux (CPU):  pip install torch --index-url https://download.pytorch.org/whl/cpu
+#   Windows (GPU): pip install torch --index-url https://download.pytorch.org/whl/cu121
